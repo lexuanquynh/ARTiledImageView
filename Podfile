@@ -1,6 +1,10 @@
 workspace 'ARTiledImageView'
+platform :ios, '14.0'
 
-pod 'ARTiledImageView', :path => 'ARTiledImageView.podspec'
+ENV['SWIFT_VERSION'] = '4.2'
+target 'Demo' do
+  pod 'ARTiledImageView', :path => 'ARTiledImageView.podspec'
+end
 
 target 'IntegrationTests' do
   pod 'Specta'
