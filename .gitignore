@@ -20,6 +20,6 @@ DerivedData
 *.ipa
 Gemfile.lock
 .bundle
-Pods
+# Pods
 .idea/
 *.xcworkspace
